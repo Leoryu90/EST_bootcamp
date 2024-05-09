@@ -30,19 +30,19 @@
     </form>
     <!--
         로그인 버튼을 누르니 아래와 같이 주소창에 나타남 
-        htmlCss/240508/001.html?id=aaa&pw=bbb
+        htmlCss/240508/tb_001.html?id=aaa&pw=bbb
         key1=value1&key2=value2&key3=value3의 양식으로 들어갑니다.
 
         처리 절차
         1. 로그인 버튼을 누르게 되면 브라우저에서 각각에 input의 name값과 value값을 가져와서 아래 패킷 데이터를 만듭니다.
 
-        GET /001.html?id=aaa&pw=bbb HTTP/1.1              # 요청라인
+        GET /tb_001.html?id=aaa&pw=bbb HTTP/1.1              # 요청라인
         # ...여러 정보 생략...
         host: 나자신
 
         2. 이 패킷을 host로 보내서 처리합니다.
 
-        3. 그런데 처리해야 할 사람이 나 자신입니다. 그래서 나 자신에게 'htmlCss/240508/001.html?id=aaa&pw=bbb'이 뜨게 됩니다.
+        3. 그런데 처리해야 할 사람이 나 자신입니다. 그래서 나 자신에게 'htmlCss/240508/tb_001.html?id=aaa&pw=bbb'이 뜨게 됩니다.
 
         GET 방식의 장점과 단점
         1. URL에 데이터가 노출되어 보안에 취약합니다. 예를 들어서 카페 같은 곳에 잠시 자리 비웠는데 누군가 훔쳐보면 어떻해요? URL은 기본적으로 도청이 됩니다.
