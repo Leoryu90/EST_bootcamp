@@ -1,0 +1,184 @@
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OTEnjoystoriesBA';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@import url('//fonts.googleapis.com/earlyaccess/notosanskr.css');
+
+* {
+    font-family: 'GmarketSansMedium';
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    height: 57px;
+    width: 200px;
+    border: none;
+    border-radius: 7px;
+    font-size: 24px;
+}
+
+.font {
+    color: white;
+}
+
+input::placeholder {
+    color: #BABCBE;
+    font-size: 24px;
+    text-align: center;
+    vertical-align: center;
+}
+
+body{
+    background-color: #5B2386
+    }
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome_text {
+    font-family: OTEnjoystoriesBA;
+    font-size: 36px;
+    color: #F5DF4D;
+    margin-top: 46px;
+}
+
+.explain_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    margin-top: 78px;
+}
+
+.explain_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.double_quotation_marks {
+    width: 25px;
+    height: 25px;
+}
+
+.bold_text {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.input_section {
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 102px;
+    gap: 40px;
+}
+
+.how_many_time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 115px;
+}
+
+.how_many_time-button {
+    background-color: #FCEE21;
+    color: #5B2386;
+    height: 66px;
+    width: 565px;
+    border-radius: 56px;
+    font-size: 24px;
+}
+
+.hand-1 {
+    margin-top: 40px;
+}
+
+.your_time {
+    margin-top: 147px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.extrabold_text {
+    font-weight: bold;
+    font-size: 72px;
+}
+
+.your_time-text {
+    vertical-align: center;
+}
+
+.bottom_button_section {
+    margin-top: 127px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+
+.to_go_training-button {
+    display: flex;
+    background-color: #FCEE21;
+    color: #5B2386;
+    height: 66px;
+    width: 356px;
+    border-radius: 56px;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.to_share-button {
+    background-color: white;
+    width: 191px;
+    height: 66px;
+    border-radius: 56px;
+    color: #5B2386;
+    font-size: 24px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 12px;
+    margin-top: 130px;
+    margin-bottom: 70px;
+}
+
+.footer-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Noto Sans KR;
+}
