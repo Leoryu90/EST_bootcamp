@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>flex</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+
+        }
+
+        header {
+            background-color: #444444;
+            color: #ffffff;
+            height: 50px;
+            font-size: 30px;
+            border-radius: 15px;
+            padding-left: 20px;
+        }
+
+        .main-cont {
+            display: flex;
+            flex-grow: 1;
+        }
+
+        .main-cont main{
+            font-size: 30px;
+            flex-grow: 1;
+        }
+
+        .main-cont aside {
+            font-size: 30px;
+            background-color: beige;
+            flex-basis: 150px;
+            flex-shrink: 0;
+        }
+
+        footer {
+            background-color: #444444;
+            color: #ffffff;
+            height: 50px;
+            font-size: 30px;
+            border-radius: 15px;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Header
+    </header>
+    <div class="main-cont">
+        <main>
+            Main content
+        </main>
+
+        <aside>
+            Sidebar
+        </aside>
+        </div>
+    <footer>
+        Footer
+    </footer>
+</body>
+</html>
