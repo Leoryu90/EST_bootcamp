@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <script>
+      let grade = Number(prompt('당신의 성적을 입력하세요'))
+
+      if (grade >=90) {
+          alert('당신의 성적은 A 입니다.');
+          grade = 'A'
+      }
+      else if (grade >=80) {
+          alert('당신의 성적은 B 입니다.');
+          grade = 'B'
+      }
+      else if (grade >=70) {
+          alert('당신의 성적은 C 입니다.');
+          grade = 'C'
+      }
+      else if (grade >=60) {
+          alert('당신의 성적은 D 입니다.');
+          grade = 'D'
+      }
+      else {
+          alert('당신은 공부를 한게 맞습니까?');
+          grade = 'F'
+      }
+
+      let student;
+
+      switch (grade) {
+          case 'A':
+              student = '최우수학생'
+              break;
+          case 'B':
+              student = '우수학생'
+              break;
+          case 'C':
+              student = '보통학생'
+              break;
+          case 'D':
+              student = '보충수업'
+              break;
+          default:
+              student = '사람이 맞나요?'
+      }
+
+      alert(student)
+  </script>
+</body>
+</html>
