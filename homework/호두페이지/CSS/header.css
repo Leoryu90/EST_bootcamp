@@ -1,0 +1,13 @@
+header {
+    background-color: #F2E9D8;
+    width: 100vw;
+    height: 900px;
+    padding: 0 320px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 26px 320px;
+}
