@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    button.blue{
+      background-color: blue;
+    }
+    .hidden{
+      display: none;
+    }
+  </style>
+</head>
+<body>
+<!--hello-->
+<header>
+  <nav>
+    <ul>
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+      <li>4</li>
+    </ul>
+  </nav>
+</header>
+<h1 id="hello">
+  hello world
+  <!--        <article class="hidden">-->
+  <!--            article-->
+  <!--        </article>-->
+</h1>
+<p class="txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam consequuntur explicabo hic necessitatibus recusandae sint, sit voluptates! Adipisci, asperiores aut cumque eius eos est fuga fugit iste natus, rerum sint.</p>
+<ul></ul>
+<button>Make me MORE!</button>html
+<footer>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt expedita hic officia quia sit voluptas. Aperiam architecto asperiores ducimus eum, magnam natus officia suscipit. Distinctio reiciendis reprehenderit tempore tenetur veniam.
+</footer>
+<script>
+  const myBtn = document.querySelector("button");
+  const myUl = document.querySelector("ul");
+
+  myBtn.addEventListener('click', function(){
+    for(let i=0; i < 5; i++){
+      const myLi = document.createElement('li');
+      const btnDel = document.createElement('button');
+      const btnTxt = document.createTextNode('버튼');
+
+      btnDel.append(btnTxt);
+      btnDel.addEventListener('click', ()=>{
+        myLi.remove();
+      });
+      myLi.append('삭제하기: ', btnDel);
+      myUl.appendChild(myLi);
+    }
+  });
+</script>
+</body>
+</html>
