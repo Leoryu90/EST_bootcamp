@@ -10,6 +10,13 @@ nav {
     justify-content: space-between;
 }
 
+.nav_menu{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
 .header_contain{
     display: flex;
     justify-content: space-between;
