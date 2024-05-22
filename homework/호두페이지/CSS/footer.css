@@ -1,0 +1,9 @@
+footer{
+    width: 100vw;
+}
+
+.footer_contain {
+    display: flex;
+    justify-content: space-between;
+    padding: 26px 320px;
+}

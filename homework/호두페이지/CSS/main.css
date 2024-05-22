@@ -1,0 +1,19 @@
+.sayHello {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sayHello_img {
+    height: 390px;
+    width: 660px;
+    border-radius: 30px;
+}
+
+.sayHello_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+}

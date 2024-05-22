@@ -1,7 +1,6 @@
 header {
     background-color: #F2E9D8;
     width: 100vw;
-    height: 900px;
     padding: 0 320px;
 }
 
@@ -9,5 +8,22 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 26px 320px;
+}
+
+.header_contain{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_contain_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.header_contain_img {
+    height: 890px;
+    width: 415px;
 }
