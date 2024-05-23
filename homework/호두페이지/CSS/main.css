@@ -16,4 +16,44 @@
     justify-content: center;
     align-items: flex-start;
     gap: 30px;
+    margin-left: 110px;
+}
+
+.main_img_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.main_img_section_text_top {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.main_img_section_img {
+    margin-top: 88px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 72px;
+}
+
+.main_img_section_img li {
+    display: flex;
+    gap: 72px;;
+}
+
+.main_img_section_img li img{
+    border-radius: 30px;
+}
+
+.main_img_section_text_bottom {
+    margin-top: 100px;
+}
+
+.main_img_section_button {
+    margin-top: 28px;
 }

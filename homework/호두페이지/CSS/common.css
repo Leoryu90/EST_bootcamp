@@ -8,6 +8,15 @@
     font-weight: 700;
 }
 
+.font24 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.color_orange{
+    color: #D97652;;
+}
+
 .button {
     height: 50px;
     width: 140px;
