@@ -57,3 +57,19 @@
 .main_img_section_button {
     margin-top: 28px;
 }
+
+.line {
+    border: solid 1px #C4C4C4;
+    margin: 80px auto;
+}
+
+
+
+
+
+.go_top_button {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+}
