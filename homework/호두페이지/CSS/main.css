@@ -1,4 +1,17 @@
+main{
+    width:100%;
+    padding: 0 320px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*상단 인사말 파트*/
 .sayHello {
+    width:100%;
+
     margin-top: 80px;
     display: flex;
     justify-content: space-between;
@@ -16,10 +29,14 @@
     justify-content: center;
     align-items: flex-start;
     gap: 30px;
+
     margin-left: 110px;
 }
 
+/*메인 이미지 파트*/
 .main_img_section {
+    width:100%;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -34,6 +51,8 @@
 
 .main_img_section_img {
     margin-top: 88px;
+    width: 100%;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -42,7 +61,9 @@
 }
 
 .main_img_section_img li {
+    width: 100%;
     display: flex;
+    justify-content: space-between;
     gap: 72px;;
 }
 
@@ -63,6 +84,7 @@
     margin: 80px auto;
 }
 
+/*지도 파트*/
 .main_map {
     display: flex;
     flex-direction: column;
@@ -85,46 +107,73 @@
 .custom_zoomcontrol span img {width:15px;height:15px;padding:12px 0;border:none;}
 .custom_zoomcontrol span:first-child{border-bottom:1px solid #bfbfbf;}
 
+
+/*이메일 파트*/
 .main_email {
     height: 200px;
     width: 1280px;
+
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #263140;
     border-radius: 30px;
     margin-top: 81px;
+
+    position: relative;
+    top: 100px;
+    z-index: 1;
 }
 
 .main_email_text {
     color: white;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .main_email_emailBox{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: white;
     width: 530px;
     height: 60px;
     border-radius: 60px;
     padding-right: 5px;
     padding-left: 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: white;
 }
 
 .main_email_emailBox input {
     border: none;
 }
 
+/*메인 최사한 사진 파트*/
+.main_bottom_contain {
+    height: 340px;
+    position: relative;
+    overflow: hidden;
+}
+
 .main_bottom_img {
-    width: 100vh;
+    width: 100%;
+    position: relative;
+    bottom: 350px;
 }
 
 
-
+/*최상단으로 이동하는 버튼*/
 .go_top_button {
     height: 40px;
     width: 40px;
+
     border-radius: 20px;
     border: none;
+
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
 }
