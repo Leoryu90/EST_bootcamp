@@ -50,21 +50,21 @@ main{
 }
 
 .main_img_section_img {
-    margin-top: 88px;
     width: 100%;
 
+    list-style: none;
+
+
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 72px;
+    flex-wrap: wrap;
 }
 
 .main_img_section_img li {
+    margin-top: 88px;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-    gap: 72px;;
+    gap: 72px;
+    flex: 0 0 33.333%;
+    box-sizing: border-box;
 }
 
 .main_img_section_img li img{
