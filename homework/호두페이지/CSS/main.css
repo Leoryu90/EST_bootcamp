@@ -111,7 +111,7 @@ main{
 
 
 /*이메일 파트*/
-.main_email {
+.main_Subscribe {
     height: 200px;
     width: 1280px;
 
@@ -127,7 +127,7 @@ main{
     z-index: 1;
 }
 
-.main_email_text {
+.main_Subscribe_text {
     color: white;
 
     display: flex;
@@ -135,7 +135,7 @@ main{
     gap: 20px;
 }
 
-.main_email_emailBox{
+.main_Subscribe_emailBox{
     width: 530px;
     height: 60px;
     border-radius: 60px;
@@ -149,7 +149,7 @@ main{
     background-color: white;
 }
 
-.main_email_emailBox input {
+.main_Subscribe_emailBox input {
     border: none;
 }
 

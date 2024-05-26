@@ -45,4 +45,5 @@ a:visited { color:black; }
     border: none;
     border-radius: 40px;
     color: white;
+    cursor: pointer;
 }
