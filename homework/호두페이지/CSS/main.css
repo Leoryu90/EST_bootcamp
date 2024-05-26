@@ -68,6 +68,8 @@ main{
 }
 
 .main_img_section_img li img{
+    height: 378px;
+    width: 378px;
     border-radius: 30px;
 }
 
