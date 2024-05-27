@@ -15,7 +15,6 @@ async function fetchImages(page){
 
         // 제이슨 데이터를 자바스크립트 객체로 파싱
         const datas = await response.json();
-        console.log(datas);
         makeImageList(datas);
 
     }catch(error){

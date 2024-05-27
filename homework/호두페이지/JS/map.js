@@ -88,7 +88,7 @@ kakao.maps.event.addListener(map, 'center_changed', function() {
     // 지도의 중심좌표를 얻어옵니다
     var latlng = map.getCenter();
 
-    var message = '<p>중심 좌표는 위도 ' + latlng.getLat() + ', 경도 ' + latlng.getLng() + '입니다</p>';
+    var message = '<p>중심 좌표는 위도 ' + latlng.getLat().toFixed(3) + ', 경도 ' + latlng.getLng().toFixed(3) + '입니다</p>';
 
     var resultDiv = document.getElementById('result');
     resultDiv.innerHTML = message;
